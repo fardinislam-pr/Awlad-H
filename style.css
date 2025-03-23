@@ -1,0 +1,14 @@
+ /* google font */
+ @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+ /* sheard style */
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Azeret Mono";
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0px auto;
+}
