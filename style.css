@@ -8,6 +8,14 @@
      font-family: "Azeret Mono";
  }
 
+ .section-title {
+     color: #0D1321;
+     text-align: center;
+     font-size: 32px;
+     font-weight: 800;
+     margin-bottom: 24px;
+ }
+
  .container {
      max-width: 1140px;
      margin: 0px auto;
@@ -85,4 +93,48 @@
      font-size: 48px;
      font-weight: 800;
      margin: 32px 0;
+ }
+
+ /* Why Web Development? style */
+
+ .why-web-devlopment {
+     margin-top: 75px;
+     padding: 80px 95px;
+ }
+
+ /* why web devlopment card */
+
+ .web-dev-card-container{
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 48px;
+ }
+
+ .dev-card {
+     padding: 48px;
+     justify-content: space-between;
+ }
+
+ .text-content .description {
+     text-align: start;
+ }
+
+ .text-content {
+     width: 470px;
+ }
+
+ .dev-card-title {
+     color: rgba(13, 19, 33, 0.70);
+     font-size: 24px;
+     font-weight: 700;
+     line-height: 36px;
+     margin-bottom: 16px;
+ }
+
+ .dev-card-btn {
+     padding: 12px 20px;
+     border: 1px solid #0D1321;
+     opacity: 0.7;
+     background: none;
+     margin-top: 32px;
  }
