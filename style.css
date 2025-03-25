@@ -34,6 +34,12 @@
      opacity: 0.7;
  }
 
+ .card-title {
+     color: #0D1321;
+     font-size: 24px;
+     font-weight: 800;
+ }
+
  /* nav stayle */
 
  nav {
@@ -137,6 +143,7 @@
      opacity: 0.7;
      background: none;
      margin-top: 32px;
+     cursor: pointer;
  }
 
 
@@ -152,7 +159,43 @@
      border-radius: 16px;
      border: 1px solid rgba(13, 19, 33, 0.20);
  }
- /* .video video{
-    background-image: url();
-    
- } */
+
+
+ /* My Current Target */
+ .current-tsrget {
+     margin: 150px auto 110px;
+ }
+
+ .current-target-card-container {
+     gap: 24px;
+     margin: 48px;
+ }
+
+ .current-target-card {
+     display: flex;
+     width: 364px;
+     padding: 40px;
+     flex-direction: column;
+     border-radius: 16px;
+     background: rgba(255, 223, 0, 0.05);
+ }
+
+ .current-target-card img {
+     width: 56px;
+     height: 56px;
+ }
+
+ .current-target-card .card-title {
+     margin: 42px 0 8px;
+ }
+
+ .current-target-card .description {
+     text-align: left;
+     margin-bottom: 30px;
+ }
+
+ .current-target-card a {
+     color: #0D1321;
+     font-size: 16px;
+     font-weight: 700;
+ }
